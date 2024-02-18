@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Transferchain Form Filler",
+    "description": "Find fields and call an api",
+    "homepage_url": "https://transferchain.io",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_title": "Click to Load email and password",
+        "default_popup": "index.html"
+    },
+        "permissions": [
+            "tabs",
+            "http://*/*",
+            "https://*/*"
+        ]
+    
+}
